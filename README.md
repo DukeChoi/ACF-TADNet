@@ -38,6 +38,8 @@ The core idea of ACF is:
 - Treating Hi-C contact matrices as image-like 2D data
 - Learning **directional changes (up/down/left/right)** across matrix axes
 - Reinforcing boundary and edge patterns instead of internal region similarity
+![Figure 2-1](https://github.com/user-attachments/assets/4d5df5c1-7567-4cca-8618-c12a023a49d1)
+
 
 This design enables:
 - Better alignment between model structure and research objective
@@ -67,6 +69,7 @@ ACF_sample_generation.ipynb
   For full hierarchical reconstruction, refer to the original **deepTAD** implementation.
 - This repository focuses on feature extraction and boundary-aware pattern learning, rather than providing a complete end-to-end TAD calling framework.
 - Ground truth preparation is not included in this repository and may vary depending on the experimental setup.
+![Figure 2-2](https://github.com/user-attachments/assets/e75b45fe-26e6-4028-9f7f-2d95a49700f5)
 
 
 ## Notes
